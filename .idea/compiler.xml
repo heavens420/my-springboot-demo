@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springdatajpa" />
+        <module name="middletable" />
+        <module name="pagehelpersimple" />
+        <module name="pagehelperdemo" />
+        <module name="tkdemo" />
+        <module name="shirodemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EasyCodeDemo" target="12.01" />
+      <module name="middletable" target="12.01" />
+      <module name="pagehelper" target="12.01" />
+      <module name="pagehelperdemo" target="12.01" />
+      <module name="pagehelpersimple" target="12.01" />
+      <module name="shirodemo" target="12.01" />
+      <module name="springdatajpa" target="12.01" />
+      <module name="tkdemo" target="12.01" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EasyCodeDemo" options="-parameters" />
+      <module name="middletable" options="-parameters" />
+      <module name="pagehelper" options="-parameters" />
+      <module name="pagehelperdemo" options="-parameters" />
+      <module name="pagehelpersimple" options="-parameters" />
+      <module name="shirodemo" options="-parameters" />
+      <module name="springdatajpa" options="-parameters" />
+      <module name="tkdemo" options="-parameters" />
+    </option>
+  </component>
+</project>
