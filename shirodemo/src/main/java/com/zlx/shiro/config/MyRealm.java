@@ -45,12 +45,14 @@ public class MyRealm extends AuthorizingRealm {
         roles.stream().forEach(role -> {
             //添加角色名称
             simpleAuthorizationInfo.addRole(role.getName());
+            System.out.println(role.getName());
         });
         //查询当前登录用户所有角色的权限
         List<Permission> permissions = permissionService.queryPermissionList(user.getId());
         permissions.stream().forEach(permission -> {
             //添加权限名称
             simpleAuthorizationInfo.addStringPermission(permission.getPermissionName());
+            System.out.println(permission.getPermissionName());
         });
         return simpleAuthorizationInfo;
     }

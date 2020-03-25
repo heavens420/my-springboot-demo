@@ -7,33 +7,56 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springdatajpa" />
-        <module name="middletable" />
-        <module name="pagehelpersimple" />
-        <module name="pagehelperdemo" />
+        <module name="demo" />
+        <module name="redistemplate" />
         <module name="tkdemo" />
+        <module name="databse" />
+        <module name="jjwt" />
+        <module name="jwt" />
+        <module name="simple" />
+        <module name="springdatajpa" />
+        <module name="pagehelpersimple" />
+        <module name="shiro" />
+        <module name="pagehelperdemo" />
         <module name="shirodemo" />
+        <module name="jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="databse" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="EasyCodeDemo" target="12.01" />
+      <module name="jjwt" target="1.8" />
+      <module name="jpa" target="1.8" />
+      <module name="jwt" target="1.8" />
       <module name="middletable" target="12.01" />
       <module name="pagehelper" target="12.01" />
       <module name="pagehelperdemo" target="12.01" />
       <module name="pagehelpersimple" target="12.01" />
+      <module name="redistemplate" target="1.8" />
+      <module name="shiro" target="1.8" />
       <module name="shirodemo" target="12.01" />
+      <module name="simple" target="1.8" />
       <module name="springdatajpa" target="12.01" />
-      <module name="tkdemo" target="12.01" />
+      <module name="tkdemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EasyCodeDemo" options="-parameters" />
+      <module name="databse" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="jjwt" options="-parameters" />
+      <module name="jpa" options="-parameters" />
+      <module name="jwt" options="-parameters" />
       <module name="middletable" options="-parameters" />
       <module name="pagehelper" options="-parameters" />
       <module name="pagehelperdemo" options="-parameters" />
       <module name="pagehelpersimple" options="-parameters" />
+      <module name="redistemplate" options="-parameters" />
+      <module name="shiro" options="-parameters" />
       <module name="shirodemo" options="-parameters" />
+      <module name="simple" options="-parameters" />
       <module name="springdatajpa" options="-parameters" />
       <module name="tkdemo" options="-parameters" />
     </option>

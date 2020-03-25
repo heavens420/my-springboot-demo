@@ -9,10 +9,13 @@
         <option value="$PROJECT_DIR$/pagehelpersimple/pom.xml" />
         <option value="$PROJECT_DIR$/shirodemo/pom.xml" />
         <option value="$PROJECT_DIR$/springdatajpa/pom.xml" />
+        <option value="$PROJECT_DIR$/databse/pom.xml" />
+        <option value="$PROJECT_DIR$/redistemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/jjwt/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" project-jdk-name="12" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

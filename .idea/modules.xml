@@ -3,10 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EasyCodeDemo.iml" filepath="$PROJECT_DIR$/EasyCodeDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/middletable/middletable.iml" filepath="$PROJECT_DIR$/middletable/middletable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databse/databse.iml" filepath="$PROJECT_DIR$/databse/databse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagehelperdemo/demo.iml" filepath="$PROJECT_DIR$/pagehelperdemo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jjwt/jjwt.iml" filepath="$PROJECT_DIR$/jjwt/jjwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springdatajpa/jpa.iml" filepath="$PROJECT_DIR$/springdatajpa/jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jjwt/jwt.iml" filepath="$PROJECT_DIR$/jjwt/jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelperdemo/pagehelperdemo.iml" filepath="$PROJECT_DIR$/pagehelperdemo/pagehelperdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelpersimple/pagehelpersimple.iml" filepath="$PROJECT_DIR$/pagehelpersimple/pagehelpersimple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redistemplate/redistemplate.iml" filepath="$PROJECT_DIR$/redistemplate/redistemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shirodemo/shiro.iml" filepath="$PROJECT_DIR$/shirodemo/shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/shirodemo/shirodemo.iml" filepath="$PROJECT_DIR$/shirodemo/shirodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagehelpersimple/simple.iml" filepath="$PROJECT_DIR$/pagehelpersimple/simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdatajpa/springdatajpa.iml" filepath="$PROJECT_DIR$/springdatajpa/springdatajpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/tkdemo/tkdemo.iml" filepath="$PROJECT_DIR$/tkdemo/tkdemo.iml" />
     </modules>

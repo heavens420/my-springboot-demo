@@ -45,8 +45,9 @@ public class shiroConfig {
         filterMap.put("/h3","anon");
         filterMap.put("/login","anon");
         filterMap.put("/success","authc");
-        filterMap.put("/p1","perms[user:query]");
-        filterMap.put("/**","authc");
+//        filterMap.put("/p1","perms[user:query]");
+
+//        filterMap.put("/**","authc");
 
         shiroFilterFactoryBean.setLoginUrl("/");
 

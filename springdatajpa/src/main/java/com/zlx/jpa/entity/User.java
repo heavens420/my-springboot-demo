@@ -14,7 +14,7 @@ import javax.persistence.*;
 //此注解必须加 否则报错：com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer
 @JsonIgnoreProperties(value = { "hibernateLazyInitializer", "handler" })
 public class User {
-    @Id()
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) //配置主键生成策略 自增长
     @Column(name = "id")
     private int id;
